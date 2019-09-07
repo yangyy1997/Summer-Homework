@@ -1,4 +1,4 @@
-function [g,geq] = nonlcon(x)
+function [g, geq] = nonlcon(x)
 
 [stress, Q] = ten_bar_truss(x);
 
