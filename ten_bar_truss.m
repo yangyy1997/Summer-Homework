@@ -1,6 +1,7 @@
 function [stress,Q] = ten_bar_truss(x)
 %   The variables that need to be entered are
-%   E(Young's modulus), F(forces), node(node coordinates) and ele(end points of each element).
+%   E(Young's modulus), F(forces), node(node coordinates) and ele(end
+%   points of each element).
 
 % problem defination
 E = 200*10^9;    % Pa
